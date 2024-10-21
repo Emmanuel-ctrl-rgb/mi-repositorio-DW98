@@ -50,6 +50,7 @@
 .h1 {
     text-align: center;
     margin: 40px;
+    color: green;
 }
 
 .p {
@@ -58,6 +59,7 @@
     padding: 15px;
     border-left: 1px orange solid;
     margin-left: 40px;
+    color: seagreen;
 }
 
 /*ESTILOS MAIN MAYAS*/
