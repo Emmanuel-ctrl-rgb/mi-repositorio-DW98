@@ -54,7 +54,7 @@
 }
 
 .p {
-    text-align: justify;
+    text-align: center;
     margin: 20px;
     padding: 15px;
     border-left: 1px orange solid;
@@ -74,7 +74,7 @@
 .main__mayas article {
     display: flex;
     justify-content: space-between;
-    border: 1px black dotted;
+    border: 2px black dotted;
 }
 
 .main__mayas div {
@@ -90,7 +90,7 @@
 }
 
 .picture {
-    transition: 1s;
+    transition: 2s;
 }
 
 .picture:hover {
