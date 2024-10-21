@@ -49,15 +49,15 @@
 
 .h1 {
     text-align: center;
-    margin: 40px;
+    margin: 35px;
     color: green;
 }
 
 .p {
-    text-align: center;
+    text-align: justify;
     margin: 20px;
     padding: 15px;
-    border-left: 1px orange solid;
+    border-left: 5px orange solid;
     margin-left: 40px;
     color: seagreen;
 }
