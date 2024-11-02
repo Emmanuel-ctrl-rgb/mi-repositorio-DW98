@@ -1,0 +1,19 @@
+/*ESTILOS FOOTER*/
+#footer {
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(to left, greenyellow, aquamarine, green);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-logo img {
+    width: 120px;
+}
+
+.footer-links ul li {
+    display: block;
+    text-align: center;
+}

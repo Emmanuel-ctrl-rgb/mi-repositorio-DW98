@@ -1,0 +1,29 @@
+/*ESTILOS MAIN*/
+#main {
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 90px;
+    padding: 90px 40px 0 40px;
+    background-image: linear-gradient(to top, rgb(44, 44, 247), rgb(0, 208, 255), rgb(119, 253, 255), rgb(93, 157, 240));
+    text-align: center;
+}
+
+#main img {
+    width: 400px;
+    height: 350px;
+}
+
+.h1 {
+    text-align: center;
+    margin: 10px;
+    color: rgba(44, 88, 76, 0.947);
+}
+
+.p {
+    text-align: center;
+    margin: 20px;
+    padding: 15px;
+    border-left: 3px orange solid;
+    margin-left: 40px;
+    color: black;
+}

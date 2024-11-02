@@ -1,0 +1,17 @@
+/*MEDIA QUERIES*/
+
+@media screen and (max-width:950px) {
+    .main__mayas article {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .main__mayas img {
+        width: 100% !important;
+    }
+
+    #form {
+        width: 100%;
+    }
+
+}

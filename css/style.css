@@ -1,0 +1,165 @@
+/*ESTILOS RESET CSS*/
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  max-width: 1500px;
+  /*border: 1px red solid;*/
+}
+
+/*ESTILOS BODY*/
+#body {
+  width: 100%;
+}
+
+/*NAVBAR BTS*/
+.navbar {
+  height: 80px;
+  background-image: radial-gradient(ellipse, greenyellow, green);
+}
+
+.navbar-brand {
+  padding-left: 100px;
+}
+
+.navBar__logo {
+  width: 50px;
+}
+
+/*ESTILOS MAIN*/
+#main {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 90px;
+  padding: 90px 40px 0 40px;
+  background-image: linear-gradient(to top, rgb(44, 44, 247), rgb(0, 208, 255), rgb(119, 253, 255), rgb(93, 157, 240));
+  text-align: center;
+}
+
+#main img {
+  width: 400px;
+  height: 350px;
+}
+
+.h1 {
+  text-align: center;
+  margin: 10px;
+  color: rgba(44, 88, 76, 0.947);
+}
+
+.p {
+  text-align: center;
+  margin: 20px;
+  padding: 15px;
+  border-left: 3px orange solid;
+  margin-left: 40px;
+  color: black;
+}
+
+/*ESTILOS MAIN MAYAS*/
+.main__mayas {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+
+.main__mayas article {
+  display: flex;
+  justify-content: space-between;
+  border: 2px black dotted;
+}
+
+.main__mayas div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.main__mayas button {
+  width: 100px;
+  height: 30px;
+  margin: 0 auto;
+}
+
+.picture {
+  transition: 1s;
+}
+
+.picture:hover {
+  margin-top: 5px;
+  margin-left: 5px;
+  box-shadow: 5px 5px goldenrod;
+  transition: 1s;
+}
+
+/*ESTILOS FORMULARIO*/
+#form {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 60px;
+  margin: 0 auto;
+  row-gap: 10px;
+}
+
+#form input {
+  height: 30px;
+}
+
+#form div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#form textarea {
+  width: 80%;
+  height: 80px;
+  resize: none;
+}
+
+#form button {
+  width: 50px;
+  height: 30px;
+}
+
+/*ESTILOS FOOTER*/
+#footer {
+  width: 100%;
+  height: auto;
+  background-image: linear-gradient(to left, greenyellow, aquamarine, green);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-logo img {
+  width: 120px;
+}
+
+.footer-links ul li {
+  display: block;
+  text-align: center;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 950px) {
+  .main__mayas article {
+    width: 100%;
+    flex-direction: column;
+  }
+  .main__mayas img {
+    width: 100% !important;
+  }
+  #form {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
