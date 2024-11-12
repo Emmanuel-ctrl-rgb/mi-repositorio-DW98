@@ -1,3 +1,5 @@
+@use "variables";
+
 /*ESTILOS FORMULARIO*/
 #form {
     width: 800px;
@@ -28,4 +30,16 @@
 #form button {
     width: 50px;
     height: 30px;
+}
+
+.btn1 {
+    width: 50px;
+    height: 30px;
+    border: 1px black solid;
+    background-color: red;
+}
+
+.btn2 {
+    color: aquamarine;
+    @extend .btn1;
 }

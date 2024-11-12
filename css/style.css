@@ -18,6 +18,8 @@
 .navbar {
   height: 80px;
   background-image: radial-gradient(ellipse, greenyellow, green);
+  background-color: yellow;
+  border: 1px black solid;
 }
 
 .navbar-brand {
@@ -126,6 +128,17 @@
 #form button {
   width: 50px;
   height: 30px;
+}
+
+.btn1, .btn2 {
+  width: 50px;
+  height: 30px;
+  border: 1px black solid;
+  background-color: red;
+}
+
+.btn2 {
+  color: aquamarine;
 }
 
 /*ESTILOS FOOTER*/

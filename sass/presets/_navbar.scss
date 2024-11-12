@@ -1,7 +1,11 @@
+@use "variables";
+
 /*NAVBAR BTS*/
 .navbar {
     height: 80px;
     background-image: radial-gradient(ellipse,greenyellow,green);
+    background-color: yellow;
+    border: 1px black solid;
 }
 
 .navbar-brand {
