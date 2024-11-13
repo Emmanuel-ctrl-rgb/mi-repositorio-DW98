@@ -141,6 +141,12 @@
   color: aquamarine;
 }
 
+.btn1 , .btn2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*ESTILOS FOOTER*/
 #footer {
   width: 100%;

@@ -43,3 +43,7 @@
     color: aquamarine;
     @extend .btn1;
 }
+
+.btn1 {
+    @include flex;
+}
