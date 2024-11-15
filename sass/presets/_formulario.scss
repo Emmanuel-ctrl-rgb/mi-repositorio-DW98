@@ -44,6 +44,13 @@
     @extend .btn1;
 }
 
+@mixin box-model ($width, $height, $border, $padding) {
+    width: $width;
+    height: $height;
+    border: $border;
+    padding: $padding;
+}
+
 .btn1 {
     @include box-model (100px, 100px, 1px red solid, 5px 15px 5px 15px)
 }
