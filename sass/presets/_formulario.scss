@@ -45,5 +45,5 @@
 }
 
 .btn1 {
-    @include flex;
+    @include box-model (100px, 100px, 1px red solid, 5px 15px 5px 15px)
 }

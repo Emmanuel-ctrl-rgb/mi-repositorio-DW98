@@ -3,3 +3,10 @@
     justify-content: center;
     align-items: center;
 }
+
+@mixin box-model ($width, $height, $border, $padding) {
+    width: $width;
+    height: $height;
+    border: $border;
+    padding: $padding;
+}

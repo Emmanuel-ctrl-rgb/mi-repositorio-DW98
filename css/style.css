@@ -142,9 +142,10 @@
 }
 
 .btn1 , .btn2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 100px;
+  height: 100px;
+  border: 1px red solid;
+  padding: 5px 15px 5px 15px;
 }
 
 /*ESTILOS FOOTER*/
