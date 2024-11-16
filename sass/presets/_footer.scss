@@ -17,3 +17,14 @@
     display: block;
     text-align: center;
 }
+
+.footer-links ul li a:hover {
+    color: black;
+    border: 2px orange solid;
+    padding: 1px;
+}
+
+.footer-links ul li a:active {
+    color: orangered;
+    font-weight: bold;
+}
