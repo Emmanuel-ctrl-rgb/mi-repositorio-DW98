@@ -2,7 +2,8 @@
 
 /*NAVBAR BTS*/
 .navbar {
-    height: 80px;
+    width: 100%;
+    height: 100%;
     background-image: radial-gradient(ellipse,greenyellow,green);
     background-color: yellow;
     border: 1px black solid;
@@ -16,10 +17,15 @@
     color: blue;
     border: 2px red solid;
     padding: 1px;
+
+    &:hover {
+        margin-bottom: 1px;
+        box-shadow: 1px 3px black;
+    }
 }
 
 .nav-link:active {
-    color: goldenrod;
+    color: darkorange;
     font-weight: bold;
 }
 
