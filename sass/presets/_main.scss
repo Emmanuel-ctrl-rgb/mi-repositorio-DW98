@@ -16,7 +16,12 @@
 .h1 {
     text-align: center;
     margin: 10px;
-    color: rgba(44, 88, 76, 0.947);
+    color: green;
+}
+
+.h2 {
+    text-align: center;
+    color: brown;
 }
 
 .p {
@@ -26,4 +31,9 @@
     border-left: 3px orange solid;
     margin-left: 40px;
     color: black;
+}
+
+.Inicio-contenido-h1 {
+    text-align: center;
+    color: wheat;
 }
