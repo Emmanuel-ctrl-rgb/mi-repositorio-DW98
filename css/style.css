@@ -26,6 +26,17 @@
   padding-left: 100px;
 }
 
+.nav-link:hover {
+  color: blue;
+  border: 2px red solid;
+  padding: 1px;
+}
+
+.nav-link:active {
+  color: goldenrod;
+  font-weight: bold;
+}
+
 .navBar__logo {
   width: 60px;
 }
