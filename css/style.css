@@ -195,15 +195,20 @@
   text-align: center;
 }
 
-.footer-links ul li:hover {
+.footer-links ul li a:hover {
   color: black;
   border: 2px orange solid;
   padding: 1px;
 }
 
-.footer-links ul li:active {
+.footer-links ul li a:active {
   color: orangered;
   font-weight: bold;
+}
+
+.footer-redes i {
+  font-size: 30px;
+  gap: 20px;
 }
 
 /*MEDIA QUERIES*/
