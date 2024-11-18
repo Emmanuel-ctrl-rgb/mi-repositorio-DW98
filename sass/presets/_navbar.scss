@@ -13,6 +13,13 @@
     padding-left: 100px;
 }
 
+.nav-link {
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    margin-left: 22px;
+}
+
 .nav-link:hover {
     color: blue;
     border: 2px red solid;
@@ -28,7 +35,6 @@
     color: darkorange;
     font-weight: bold;
 }
-
 
 .navBar__logo {
     width: 60px;
