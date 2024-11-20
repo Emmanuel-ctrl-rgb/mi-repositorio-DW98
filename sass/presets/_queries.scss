@@ -1,5 +1,4 @@
 /*MEDIA QUERIES*/
-
 @media screen and (max-width:950px) {
     .main__mayas article {
         width: 100%;
@@ -12,6 +11,10 @@
 
     #form {
         width: 100%;
+    }
+
+    .carousel-inner {
+        width: 100% !important;
     }
 
 }

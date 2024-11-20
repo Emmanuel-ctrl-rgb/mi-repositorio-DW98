@@ -182,6 +182,26 @@
   padding: 5px 15px 5px 15px;
 }
 
+/*CAROUSEL BTS*/
+.carousel-inner {
+  width: 100%;
+  height: 100%;
+  border: 2px black solid;
+}
+
+.d-block w-100 {
+  width: 400px;
+  height: 350px;
+}
+
+.carousel-control-prev-icon {
+  background-color: red;
+}
+
+.carousel-control-next-icon {
+  background-color: blue;
+}
+
 /*ESTILOS FOOTER*/
 #footer {
   width: 100%;
@@ -229,6 +249,10 @@
   }
   #form {
     width: 100%;
+  }
+
+  .carousel-inner {
+    width: 100% !important;
   }
 }
 
